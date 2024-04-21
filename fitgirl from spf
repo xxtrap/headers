@@ -1,0 +1,133 @@
+Received: from MN0P223MB0438.NAMP223.PROD.OUTLOOK.COM (2603:10b6:208:3ca::11)
+ by SJ0P223MB0686.NAMP223.PROD.OUTLOOK.COM with HTTPS; Fri, 19 Apr 2024
+ 16:21:42 +0000
+Received: from BL1PR13CA0064.namprd13.prod.outlook.com (2603:10b6:208:2b8::9)
+ by MN0P223MB0438.NAMP223.PROD.OUTLOOK.COM (2603:10b6:208:3ca::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7472.42; Fri, 19 Apr
+ 2024 16:21:31 +0000
+Received: from BL6PEPF0001AB73.namprd02.prod.outlook.com
+ (2603:10b6:208:2b8:cafe::21) by BL1PR13CA0064.outlook.office365.com
+ (2603:10b6:208:2b8::9) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7519.12 via Frontend
+ Transport; Fri, 19 Apr 2024 16:21:31 +0000
+Authentication-Results: spf=softfail (sender IP is 52.0.31.31)
+ smtp.mailfrom=nifty.ne.jp; dkim=pass (signature was verified)
+ header.d=nifty.ne.jp;dmarc=pass action=none
+ header.from=nifty.ne.jp;compauth=pass reason=100
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ nifty.ne.jp discourages use of 52.0.31.31 as permitted sender)
+Received: from transport-2.inbound.emailservice.io (52.0.31.31) by
+ BL6PEPF0001AB73.mail.protection.outlook.com (10.167.242.166) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7452.22 via Frontend Transport; Fri, 19 Apr 2024 16:21:29 +0000
+Received: from cloudfilter-igate-0863788b5d763f4db.inbound.emailservice.io (ip-10-4-2-238.ec2.internal [10.4.2.238])
+	by transport-2.inbound.emailservice.io (Postfix) with ESMTPS id 98D4AA16F6
+	for <aortega@balancedenvironmentsinc.com>; Fri, 19 Apr 2024 16:21:29 +0000 (UTC)
+Received: from mta-snd-e05.mail.nifty.com (mta-snd-e05.mail.nifty.com [106.153.227.181])
+	by cloudfilter-igate-0863788b5d763f4db.inbound.emailservice.io (Postfix) with ESMTPS id A1608C0342
+	for <aortega@balancedenvironmentsinc.com>; Fri, 19 Apr 2024 16:21:27 +0000 (UTC)
+Received: from ip-172-31-33-72 by mta-snd-e05.mail.nifty.com with ESMTP
+          id <20240419162124127.UVG.81160.ip-172-31-33-72@nifty.com>
+          for <aortega@balancedenvironmentsinc.com>;
+          Sat, 20 Apr 2024 01:21:24 +0900
+Date: Fri, 19 Apr 2024 12:21:23 -0400
+To: aortega@balancedenvironmentsinc.com
+From: "You have (1) new message in Teams" <balancedenvironmentsincvoip.onmicrosoft.teams@nifty.ne.jp>
+Subject: =?utf-8?Q?[EXTERNAL]_New_voicemail_f=D0=B3=D0=BEm_+18008659**8_(00:00:30)?=
+ =?utf-8?Q?_=D0=BEn_Fri,_Apr_19,_2024?=
+Message-ID: <192c54e065dcabd6b80b43c8e5713114@ip-172-31-33-72>
+X-Priority: 5
+Sensitivity: null
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_192c54e065dcabd6b80b43c8e5713114"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nifty.ne.jp; s=default-1th84yt82rvi; t=1713543684;
+ bh=vigxzOiL9UnOFTC6Anpo5nLVJuEphBt665tRpw66/Eg=;
+ h=Date:To:From:Subject;
+ b=QsIDSW0Evdb3n6UA0Xf3r0XqJIzqbCsF9utlB+3knFHtWNkTEEocldSuiLjmLGcCiMBePrI0
+ CgvloxzuQ/+HU+42ynxgWBCC2wAYAD0isIdxuXeeY7ikr2UC6fEbrZM86ZVq39jNiTIR8rvm2+
+ tjY0eQ6Kgee74WLiPbI/B3tR+kskc+4miZmr3NlM+G/SDf9Pgkj8MEtJYGCP+YqfFfUiTIiVPM
+ l3D5RVRuvjucwv3G9ID5Vp5LNKSRMpTJh2rlP19JlrK7NqyBzp2qR1jBr3xuZfWyDyKGIq9e5H
+ DBYFpl2KntnBz9SDua98lvIbw31HCHu2LsOYPYhy68QuhH2w==
+X-Mailprotector-Decision: deliver
+X-Mailprotector-Connection: TLSv1.2|mta-snd-e05.mail.nifty.com|106.153.227.181|mta-snd-e05.mail.nifty.com|0|0|0|new|ugly|0|0|0|0
+X-Mailprotector-Results: spf_pass from_spf_pass subject_50_chars dkim_verified clean
+X-Mailprotector-Score: 0
+X-Mailprotector-IP-Analysis: 0, 106.153.227.181, Ugly c=0 p=0 Source New
+X-Mailprotector-Scan-Diagnostics: 0-0-0-17968-c
+X-Mailprotector-Timestamp: 7oXiDwFrg8vyQD/glgMmjQ==
+X-Mailprotector-ID: 4fb8d8f4-c9f0-4fce-90ab-1ee0f2ea197a
+Return-Path: balancedenvironmentsincvoip.onmicrosoft.teams@nifty.ne.jp
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Apr 2024 16:21:30.2253
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ a0e1e1c6-0198-4c6d-c2de-08dc608cc556
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 2895b049-2b0b-476a-ac24-73cf9af30fab:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ BL6PEPF0001AB73:EE_|MN0P223MB0438:EE_|SJ0P223MB0686:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BL6PEPF0001AB73.namprd02.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: a0e1e1c6-0198-4c6d-c2de-08dc608cc556
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:52.0.31.31;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:transport-2.inbound.emailservice.io;PTR:transport-2.inbound.emailservice.io;CAT:NONE;SFS:(13230031)(82310400014);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Apr 2024 16:21:29.8190
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a0e1e1c6-0198-4c6d-c2de-08dc608cc556
+X-MS-Exchange-CrossTenant-Id: 2895b049-2b0b-476a-ac24-73cf9af30fab
+X-MS-Exchange-CrossTenant-AuthSource:
+ BL6PEPF0001AB73.namprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN0P223MB0438
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:12.3723469
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7472.035
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?CCJNqss5uTmbk/jO4Ci6x6vRsrwvlCiQiQY5ltvSyX4ennGh6rtxP0PWzm5I?=
+ =?us-ascii?Q?M54U/Mq3FS2iq9+7UK8T8h0tEHfxH5w7fYoodHOMEztw5LaJXue1kDF6+pJu?=
+ =?us-ascii?Q?CXj+DsyD5Yesm2petZwYMIY53VIWsrY7H/IPK3eF2iLWrrEXJUB+mkBFAzIN?=
+ =?us-ascii?Q?Ot1Fo5MUe1tqGYYLBTksswq4475pH8noOzf3JcirF1zGnR3Qqvm4Hxt8fMss?=
+ =?us-ascii?Q?6yHCvIEGwBSrlOlCDBkRot1epPGaTXZbr7irZ+ySNKk/Nvo2WkdRRG5+9EMb?=
+ =?us-ascii?Q?jPzLzkUnqXH4DY0GsCUSJFNCcKxIjxrRVVNPzJZ+8wDVRSL3Qzr3181mnbFk?=
+ =?us-ascii?Q?Uc7sZq/uPFErapcAt8g1PPf2L+ObfwZtWxiZ0N7VUSURD5TaPuFceBUMLplW?=
+ =?us-ascii?Q?O9pWpq9XQXnV7KPBk30NDx/7SHv283u3O0/PWFT6CGsGJsMPJOWJwIKzTzu9?=
+ =?us-ascii?Q?+JmlaX4JWDK1PMhZE9Jl9hoIkudvxIxDXwVm0xnR7Y+V5HnDL+PeW0VcL6vC?=
+ =?us-ascii?Q?jj22FtOPznBowUeyO6tP8aFtxK4n65jHrTq7k4po4nuusPpwrYqX3J1l9/+o?=
+ =?us-ascii?Q?CD4bGcYvROhgQk3XyR0CV2QM9zZCEQ5katG5AsxMV69NXeKSH/8sCCVE7n1I?=
+ =?us-ascii?Q?OPW5xTHYvWMXFZ+P7drV6c2ts/FarIqFr50oeZ6nyF8eBM79uQqxqQdNZHxU?=
+ =?us-ascii?Q?MjYVDj8cA9NitdCO/4pyfykf/dTxTjWvBVbdjefuqVHq5mjAG1taVPQhLl7p?=
+ =?us-ascii?Q?Em0V/e4VGheMP0r7+4iYTRVEh4NkdfDY/OwcDVIRMLt1JbTvEmlyRZ9nsnFk?=
+ =?us-ascii?Q?PmSOA3Gy5oy4nYRYULcX8D6EfnYBRk4wONJpduHbsiS4FWaytzHmliMh+DM8?=
+ =?us-ascii?Q?KmPSJDSIkzgnytRMJ+S0WdRdnXXoKAX/s9uiTC2LwGwmacW9XRSmBbtAQAyI?=
+ =?us-ascii?Q?MsuPUdKkH7sn5SRw5N/J/ReTlClFB5QBb7H0WmVZXcEOdLbvEiLE9h4nqXhn?=
+ =?us-ascii?Q?odIEWq9zsnF6fSxNVYHLJbPIlY3tVYfcpVSGTNzb690LLIK9PnKUtIMW6loI?=
+ =?us-ascii?Q?rZEBOpPitjS/xUX3r8tXTtahTMzgFjc9fOkPEnoIMo+/Pt5nHy5GpFsaIhPa?=
+ =?us-ascii?Q?abEtAoVLLY3gWmKK57yIFHl3MEFUb/xafGYFWWDStrxUIU/EN/xtE1uw3kIr?=
+ =?us-ascii?Q?BNWhDuc1y0k3gRgicOAhvbK46/PMQwq0sahjaQwkb7TqqXOjjFB9MHvPfgea?=
+ =?us-ascii?Q?72vpp5liEVy1nwVLI7D3OlTG7XA6NnqkAf+NclirSXVX0sYr5LXm6jRQbptK?=
+ =?us-ascii?Q?27ItzQNg07aR2coAASzpHjJgOfkyvDbcCVYo9Fb1nAloZZ6URbXri4NfZ2fO?=
+ =?us-ascii?Q?ZUrhqOczeh5zyXd+Bvya4tkugTwm7QMkv3pc0pUZE553SKfrDsoby5gXnth6?=
+ =?us-ascii?Q?GqSDlMXhriZbQvNP3uOkDLK1pAQaWHNfnEP1fOIaodDJ8RGcqlyLwwRTwOIc?=
+ =?us-ascii?Q?PKHKV8Nqhgjm6WAXQTE3sMVd9oO75c/c2GD9ciJWE92QLGWarETTNBmL4dHw?=
+ =?us-ascii?Q?WasR8RDLviNE6qlq4BZX4hk3DdVTufnQ7TLYc30hdqeU0tmiJ2jZaQnVFO+P?=
+ =?us-ascii?Q?JMpC/m6wPAw/pr/eYGb+h20symuCfEbzgQAXgBV/CG3T/SF3otxzwtNsHing?=
+ =?us-ascii?Q?pFQeS9wPg+5lK9jY//K/hY1xPWbgYrYnnlYXFAJkm+iltZHn+wh/Lyqsbfjk?=
+ =?us-ascii?Q?HudMoA+k9Oso9UPhwl2Cqf5t99tDggGfPlEENVBZTeDezzOZKZFXxyrwYPJz?=
+ =?us-ascii?Q?aM/Q7K+uNZ/YH//vR0YHiJACnLNAIq6aXziS91rfnW9FqNCYEMuOCysnK2Eg?=
+ =?us-ascii?Q?pUFMTGlFBPLTH1+8sFQHVFuxdaK+S231Y+KzXVO1UptSIjWTInMSBkHr7bXe?=
+ =?us-ascii?Q?DdWFnz1fRwLmqheet0pPRnAnu/Y9zOE73t4DImFdtGM5RWg/jawC5DFR/NZA?=
+ =?us-ascii?Q?+hMD6OUawnK7QoqhmLkOCZc47eqDRsGdmFlHhsMva1rD4kRucAwXMStJyVW+?=
+ =?us-ascii?Q?FF01cGFzfVBYGvunCMb9xDkZaAXdpgl+sqpYWLRf8s/5nL3gPbCIulNyfJAX?=
+ =?us-ascii?Q?+12KX9qoRXqExsj29IGbugFBgDkEJCocPA=3D=3D?=
