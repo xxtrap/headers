@@ -1,0 +1,55 @@
+Received: from DM4PR16MB5420.namprd16.prod.outlook.com (2603:10b6:8:189::8) by
+ MW4PR16MB5030.namprd16.prod.outlook.com with HTTPS; Wed, 17 Apr 2024 19:38:37
+ +0000
+MIME-Version: 1.0
+From: Microsoft Outlook
+	<MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@oca-sf.org>
+To: <membership@oca-sf.org>
+Date: Wed, 17 Apr 2024 19:38:36 +0000
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="0be3322e-c784-4d6f-9762-047ca00e43e1"
+X-MS-Exchange-Organization-SCL: 1
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: en-US
+Message-ID:
+ <594e0b15-5d25-4fd1-a475-d416b819b70d@DM4PR16MB5420.namprd16.prod.outlook.com>
+In-Reply-To:
+ <MW4PR16MB50303635CEC61E3E76EA12F2E90F2@MW4PR16MB5030.namprd16.prod.outlook.com>
+References:
+ <0100018eed87aa61-957f596b-1d1a-4a82-b1ed-af1eeac1ca32-000000@email.amazonses.com>
+ <MW4PR16MB50303635CEC61E3E76EA12F2E90F2@MW4PR16MB5030.namprd16.prod.outlook.com>
+Thread-Topic: =?iso-8859-5?B?VGFz/HMgVGFzayBD3m5madNt0HRp3m4g?=
+Thread-Index: AQHakP1cpbPlCdrgWUqih8chLT0NP7Fs2x03gAAAljI=
+Subject:
+ =?iso-8859-5?Q?Undeliverable:_Re:_Tas=FCs_Task_C=DEnfi=D3m=D0ti=DEn_?=
+Auto-Submitted: auto-replied
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource: DM4PR16MB5420.namprd16.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 05
+X-MS-Exchange-Organization-Network-Message-Id:
+ 13d126c1-02a3-4e04-e916-08dc5f15f9b0
+X-MS-TrafficTypeDiagnostic: DM4PR16MB5420:EE_|MW4PR16MB5030:EE_
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Apr 2024 19:38:36.7840
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: SideEffectMessage
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: SideEffectMessage
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:;PTR:;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Apr 2024 19:38:36.7840
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-AuthSource: DM4PR16MB5420.namprd16.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ 13d126c1-02a3-4e04-e916-08dc5f15f9b0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM4PR16MB5420
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.1639763
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7452.029
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(4710097)(4711095)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	m1bDZkSq8ibIhIm3uYxlEKaZxC1ZVD6HO2nBNpYNZAKWbqUFkNdn9mV0FNEIGvZzSY37qKGXNG59IL13mxdb9gh97u5Q6AFDhEhXFnQjNc0X/jrubhdNrCoQZ68lODedmbifKli41eLZb+k2y5GLywtCo/WXrtFmsKR5BuXELio8wL8Rh8ZCOCDR+QR4RDr3l48PThb6vv7Q0uxhx4KPM3ztK6nnM+FQd3nhiwd8iw6076Qk0k6Ssyt0KKeCcdBIiT3pmpwFokz7TZ0EMDA+6A3KzLZWbvqwoFpiy0RuF7HOm7EWzuC9lYrGy1dv92wloXY3xuKD4RS6xmu25zPfBRlaZ5Txi6ia7r5uLdN1g7X7GHcUqAaGaQLy9Zb1QACjJbXVoiOapMS02+gx2LkuJQYYgu+ODHvg+9dGKcGVnFLijcbHcoukxgSJdOM2NTFCm4EoTSKm3LYh6jA3B0MqthxPZMR1S8FkTHxFXsAgfEQDFf9urfC8vuObo9tFCNPz3Zxo+8z4bvYOaXulln0s3oHWVrtdDzHWfDMkF+P9iSUVPf2HfzUnHHLnewh8Do/trgTh654gdvqAIiwQg3psUyD9eVDHyVtQSr+Ifg1POzS5gDb1uxjyuGKwPtddBOWrKXS4XBsyL2Cs+Db76jX+bSdOCH1Md2cG3Ruaa/2IIi0WBFnr6Gk/qQ3Z5vfpbIQ/eKJZYBpyHS9URDXHYYynkmolbvUQ1ceu3A/1wNDD0AVd0G04eB9LS3ODhl5LgnbCcvczBFuxdrBpm7o5s1+KXU/caqKM7yHKizxzk3nSg2RuqwqH40qpdUaLOfPJRdjVOo68BEwq9uWiD+sjoVnPEih3/zS+xzzXn/yUXdRfSvN33Zb+EjgEGEH3/uEX4osb4g64UkC1TRNdbyhZd6+hRj70obsLLXZLyvmV2Wqb/iw=
