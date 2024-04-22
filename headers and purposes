@@ -7,6 +7,7 @@ Bcc: Indicates blind carbon copy recipient(s) who received a copy without other 
 Subject: Contains the subject line of the email.
 Date: Shows the date and time when the email was sent.
 Message-ID: A unique identifier for the email message.
+X-Campaign-ID: This header is entirely custom and can be added by the sender when composing the email. The sender can define the value of the "X-Campaign-ID" header to uniquely identify the email campaign associated with the message.
 MIME-Version: Specifies the MIME (Multipurpose Internet Mail Extensions) version used in the email.
 Content-Type: Specifies the format (e.g., text/plain, text/html) and character encoding of the email content.
 Content-Disposition: Indicates how the email attachment should be displayed or handled.
