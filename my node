@@ -1,0 +1,125 @@
+Received: from SA0PR16MB3695.namprd16.prod.outlook.com (2603:10b6:806:88::16)
+ by MW4PR16MB5030.namprd16.prod.outlook.com with HTTPS; Wed, 8 May 2024
+ 21:35:35 +0000
+Received: from BN0PR04CA0107.namprd04.prod.outlook.com (2603:10b6:408:ec::22)
+ by SA0PR16MB3695.namprd16.prod.outlook.com (2603:10b6:806:88::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.43; Wed, 8 May
+ 2024 21:35:33 +0000
+Received: from BN1PEPF00004688.namprd05.prod.outlook.com
+ (2603:10b6:408:ec:cafe::45) by BN0PR04CA0107.outlook.office365.com
+ (2603:10b6:408:ec::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7544.42 via Frontend
+ Transport; Wed, 8 May 2024 21:35:33 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.8.57)
+ smtp.mailfrom=amazonses.com; dkim=pass (signature was verified)
+ header.d=schreinerei-spuck.de;dmarc=bestguesspass action=none
+ header.from=schreinerei-spuck.de;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of amazonses.com designates
+ 54.240.8.57 as permitted sender) receiver=protection.outlook.com;
+ client-ip=54.240.8.57; helo=a8-57.smtp-out.amazonses.com; pr=C
+Received: from a8-57.smtp-out.amazonses.com (54.240.8.57) by
+ BN1PEPF00004688.mail.protection.outlook.com (10.167.243.133) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7544.18 via Frontend Transport; Wed, 8 May 2024 21:35:32 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=eyizynkhbccjgxw432cew5rrqcst3lue; d=schreinerei-spuck.de;
+	t=1715204132;
+	h=Reply-To:From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:MIME-Version:Content-Type;
+	bh=g3zLYH4xKxcPrHOD18z9YfpQcnk/GaJedfustWU5uGs=;
+	b=kjFIlzjEpK57i5yvEHhl289ePwyGqqM65He+9N22DXYulikgpuHhgdiCKGrinm9Y
+	/bZckhXDrbo/T1ewpUzRImE/8yHAhz9HHFjHsZrp0NS5x7bL4OF+Si3WPKT/2C1ObDd
+	+Bsoc+Fb9x7CLUM3rMDhMrHgSL/pnxpNfiRA7W2nV3/P5WDsLhZylVxRjDtqCpJLZwh
+	RbvjyDkIkskvgmDhm7tdwTFCRuaM86R0cl36RRAfD3/pZRveK+pIXj/88YL9WYfEkkr
+	PykLMkCruF4of/z9n4fFO6BDsh8RNHsPrvaNe6Hdf7ZoKQRWH0DGLyX4ktSThpjZoj6
+	REyhXyNaDQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1715204132;
+	h=Reply-To:From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:MIME-Version:Content-Type:Feedback-ID;
+	bh=g3zLYH4xKxcPrHOD18z9YfpQcnk/GaJedfustWU5uGs=;
+	b=fFVaKmCkNZ7SHpLkGPsWD7Tox1Vuyj1fMqOYA5nRdHnlze+CBJwxf4dhhOdh8v2r
+	5hihQFnOLSVKQ8uD/eyuXBTXNeKHmCnniQZB/JBd0nbD9HjlG2UJdmVdyeklwK+xrUy
+	ka+SI+zwF+btnH544CkL3uEUr0J0ttmhEwO3qUxY=
+Reply-To: debby@debbysrealty.com
+X-Confirm-Reading-To: membership@oca-sf.org
+X-Auto-Submitted: auto-replied
+X-Mailprotector-Decision: deliver
+Auto-Submitted: auto-replied
+From: 157 <info@schreinerei-spuck.de>
+To: membership@oca-sf.org
+Subject: Good Morning membership@oca-sf.org 
+Message-ID: <0100018f5a220db1-93db34fc-a61a-4c86-911a-fb1904e19b40-000000@email.amazonses.com>
+X-Priority: 5 (Lowest)
+X-Msmail-Priority: Low
+Importance: Low
+Content-Transfer-Encoding: 7bit
+Date: Wed, 8 May 2024 21:35:32 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Feedback-ID: 1.us-east-1.wx5jfBDmYhZvX1ZrGecYW25nKnKK4OUDILSbau3OKI0=:AmazonSES
+X-SES-Outgoing: 2024.05.08-54.240.8.57
+Return-Path:
+ 0100018f5a220db1-93db34fc-a61a-4c86-911a-fb1904e19b40-000000@amazonses.com
+X-MS-Exchange-Organization-ExpirationStartTime: 08 May 2024 21:35:33.1826
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 88b81e56-7b81-49ac-1d6e-08dc6fa6ca77
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: d54d8579-7d9e-48ca-96e8-f8f11b2ed904:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ BN1PEPF00004688:EE_|SA0PR16MB3695:EE_|MW4PR16MB5030:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN1PEPF00004688.namprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 88b81e56-7b81-49ac-1d6e-08dc6fa6ca77
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;ARA:13230031|32142699006;
+X-Forefront-Antispam-Report:
+ CIP:54.240.8.57;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SFE;H:a8-57.smtp-out.amazonses.com;PTR:a8-57.smtp-out.amazonses.com;CAT:NONE;SFS:(13230031)(32142699006);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 May 2024 21:35:32.7919
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 88b81e56-7b81-49ac-1d6e-08dc6fa6ca77
+X-MS-Exchange-CrossTenant-Id: d54d8579-7d9e-48ca-96e8-f8f11b2ed904
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN1PEPF00004688.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR16MB3695
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1476113
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7544.013
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(811239)(255002)(410001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?CWRviC4qNAOhdz+5JimXoQsG3oEd4a0TZ0sUez/8qM9aIGqCgzoVD4HWw5zH?=
+ =?us-ascii?Q?SDxwO90tUxzF0tbJMglNz67N+t2r1UPvEgeXotYl0w8SuqSbilCDmuyVcbGa?=
+ =?us-ascii?Q?u3XWFL/RinjCDnC6ijg6MRL62nPDLizsF911pLWGIbnT61pBahO45rU6lRbU?=
+ =?us-ascii?Q?GHN2NeJttk/421kFooFsTkU5Aa95CX0xnwaJzFRFUhVDV1C6RdOCIK6duxBH?=
+ =?us-ascii?Q?gXFJdd8WoMYXxt5e84uGR/+hJO4eFWJ3+pbbeo8fdsrMXfVXLpHUlwbuHY0V?=
+ =?us-ascii?Q?AHRuWwS3iA2HCs9FHR7ioRtMgEhY3rjBf99RWKpiwl7Zg9XCkgxWNpG2YvKh?=
+ =?us-ascii?Q?kGgBIymvTcClpLi3ejGZooUfynIWdogSPabdIGt10xecBqEHA5jnOjnRP9lE?=
+ =?us-ascii?Q?aPqG8RYs7BxrUBRd4zBAnFsHguO0SJPYKrfThDqDNXYeGh2A+x3y6L6xqehd?=
+ =?us-ascii?Q?ihH9DarLypjdsyk9NU3J5JRL6D/uny47FTpdw0cH92fAOnAJs2z5LKtoYMQU?=
+ =?us-ascii?Q?t93jcjPOxtVTnYqh7xndqZS4dn3dHh8dVV6oyvGdo3LfyDL6tLDdsEoX4Xze?=
+ =?us-ascii?Q?f+UAFmwXiiY3UVlNgvTZPmMQ2n35+M/vkBnKv2Ck40hwa+7xxDXhJ6rlUDB+?=
+ =?us-ascii?Q?Du+IfEqL1DqTD1bTo1vfk2uYkudOv9tede7RGuK82pUnkEYroUs3tapQ3Lqk?=
+ =?us-ascii?Q?d2tMwRHXtM36RAkrkgeaVtltEVa2DUyQk/m2KYMgZeqXv2rGcUvytYHvHy0i?=
+ =?us-ascii?Q?4DgCYb4viWr/dGf9/oZxB11lIEOXxHvW4tKl/M0XRYnDFZ7f0XsJiSeWIyf/?=
+ =?us-ascii?Q?CRE7g0G05LmqYkrbQqJAW2h/whpSxT437aKGE3i7jxb/QWUGR8UipAOKaxeg?=
+ =?us-ascii?Q?5rUYB6npS7G1RuY8+4pm0aiYjuOycXNunuicNJFIEQwF/f1LybSEoBgBpxoo?=
+ =?us-ascii?Q?XV22OFPuBOyZAlhtp/MVxSuSit99DxSAdzeMsImn9vYtJVyzU/Yb+mtDW1wz?=
+ =?us-ascii?Q?gYAyLwTA1fzNEuwr+AZGmtqWIKHWU1ASSGvG1hYb1O9IfLBAcakV3yAn1enk?=
+ =?us-ascii?Q?W55WUfUio8XF8VRZ4ys39SxJiJYrO6oQm8AKBnSGzBIqNM4Hnv3WIaZbUPp+?=
+ =?us-ascii?Q?X8RyP5Ls6XcM7/NmnyvUALz0Zcw2ZL/l69KGxrwiYg0QjRyDWkRLR0tOiMwm?=
+ =?us-ascii?Q?lPiKWSX5xFEUnkDuuQd0IN7SXvykNHbuY4h0EnXk/R2Sy+8y5DTxffoZatbe?=
+ =?us-ascii?Q?J7bU6DI9czN+DDli4f/pgCERVIbbTgXhJXPjNGX89UeVZ8aIkzv+DzAVJD29?=
+ =?us-ascii?Q?FmpMQJuN/kFH5WaRq5jjCAVX8y/i9YS4X7VzqIzH+eR4gClWqotYaeKyrudj?=
+ =?us-ascii?Q?JTNbB2CCr0jBKs17JsKJxbYWlEH27av9yUlJZKZj05lPFPFZaojANvClzXmY?=
+ =?us-ascii?Q?uWUYorTcjNJwqwcsoqHKjTBqAMEcz+4H1/4xCB9h6d79+QaK2Wl582U4FPmz?=
+ =?us-ascii?Q?sSSyLs2CB/ihdaOrBBNdrPCuADUHBCybwOCAV/N8REk49NtlYBzJtITxknu8?=
+ =?us-ascii?Q?lvsqqMqgbQaKNS3GKYdhe4eppMebqpdibvctL2fOW23YiKuuC0Z/w9fg959T?=
+ =?us-ascii?Q?Ij90BzNYRBgoGz+Cc29lHjU=3D?=
